@@ -7,7 +7,7 @@
     <arg name="pitch_robot" default="0"/>
     <arg name="yaw_robot" default="0"/>
 
-    <arg name="model" default="$(find autonav)/urdf/robot_simulation.urdf.xacro"/>
+    <arg name="model" default="$(find autonav)/urdf/robot_hardware_launch.urdf.xacro"/>
     <arg name="rate" default="10" />
 
     <param name="robot_description" command="$(find xacro)/xacro '$(arg model)'" />
